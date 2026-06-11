@@ -138,6 +138,6 @@ randomForest · gbm · pROC · PRROC · gridExtra
 ## Autora
 
 **Caren Moreno**  
-Máster Universitario en Bioinformática — UNIR  
+Máster Universitario en Bioinformática - UNIR  
 Asignatura: Algoritmos e Inteligencia Artificial
 
