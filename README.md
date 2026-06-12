@@ -33,6 +33,10 @@ Aplicación de seis algoritmos de **aprendizaje supervisado** sobre el dataset W
 
 Este proyecto forma parte de la asignatura **Algoritmos e Inteligencia Artificial** del Máster Universitario en Bioinformática (UNIR). Se implementa un pipeline completo de machine learning en R utilizando el framework `caret`, cubriendo desde la preparación de los datos hasta la comparación de modelos mediante curvas ROC.
 
+<p align="center">
+  <img src="figures/biotech.png" width="600">
+</p>
+
 ### Dataset
 
 **Wisconsin Breast Cancer Diagnostic (WBCD)** - 569 muestras, 30 variables numéricas derivadas de imágenes digitalizadas de aspirados con aguja fina (FNA) de masa mamaria.
