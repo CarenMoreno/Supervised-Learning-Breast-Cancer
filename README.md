@@ -195,6 +195,8 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
   <img src="figures/07_comparativa_curvas_roc.png?raw=true" width="500" height="500" alt="accuracy">
 </p>
 
+La comparación de las curvas ROC sobre el conjunto de prueba muestra que cuatro de los cinco modelos alcanzan un rendimiento discriminativo muy alto. SVM (AUC = 0.999) y GBM (AUC = 0.998) obtienen los mejores resultados, con curvas que se aproximan al vértice superior izquierdo de forma casi perfecta, lo que indica una capacidad casi ideal para separar tumores malignos de benignos. Random Forest (AUC = 0.997) y KNN (AUC = 0.994) presentan un comportamiento muy similar, manteniéndose también muy por encima del clasificador aleatorio (línea diagonal punteada). El Árbol de Decisión individual (AUC = 0.937) es el modelo con menor rendimiento, con una curva más escalonada y alejada del vértice óptimo, lo que refleja su mayor simplicidad estructural y menor capacidad para generalizar en comparación con los métodos ensemble. En conjunto, estos resultados confirman que todos los modelos son adecuados para esta tarea de clasificación clínica, aunque los métodos basados en ensemble superan claramente al árbol de decisión individual.
+
 ---
 
 ## Paquetes utilizados
