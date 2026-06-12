@@ -43,6 +43,7 @@ Este proyecto implementa un pipeline completo de machine learning en R utilizand
 | Fuente | UCI Machine Learning Repository |
 
 Las variables describen media, error estándar y peor valor observado de diez características nucleares: radio, textura, perímetro, área, suavidad, compacidad, concavidad, puntos cóncavos, simetría y dimensión fractal.
+
 ---
 
 ## Modelos implementados
@@ -164,86 +165,7 @@ randomForest · gbm · pROC · PRROC · gridExtra
 Máster Universitario en Bioinformática - UNIR  
 Asignatura: Algoritmos e Inteligencia Artificial
 
-# Supervised Learning Applied to Breast Cancer Diagnosis
 
-![R](https://img.shields.io/badge/R-4.x-276DC3?style=flat&logo=r&logoColor=white)
-![caret](https://img.shields.io/badge/caret-ML%20Framework-orange?style=flat)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
-
-Aplicación de cinco algoritmos de **aprendizaje supervisado** sobre el dataset **Wisconsin Breast Cancer Diagnostic** para clasificar tumores mamarios como malignos (M) o benignos (B) a partir de características morfológicas del núcleo celular extraídas mediante imágenes digitales de aspirados con aguja fina (FNA).
-
----
-
-## Descripción
-
-Este proyecto implementa un pipeline completo de machine learning en R utilizando el framework `caret`. Se entrena, optimiza y compara el rendimiento de cinco modelos supervisados sobre datos biológicos reales, evaluando su capacidad para distinguir entre tumores benignos y malignos.
-
-### Dataset
-
-**Wisconsin Breast Cancer Diagnostic (WBCD)**
-
-| Característica | Detalle |
-|---|---|
-| Muestras | 569 pacientes |
-| Variables predictoras | 30 (características morfológicas del núcleo celular) |
-| Variable objetivo | `Diagnosis`: M = Maligno (212), B = Benigno (357) |
-| Fuente | UCI Machine Learning Repository |
-
-Las variables describen media, error estándar y peor valor observado de diez características nucleares: radio, textura, perímetro, área, suavidad, compacidad, concavidad, puntos cóncavos, simetría y dimensión fractal.
-
----
-
-## Modelos implementados
-
-| # | Modelo | Método (`caret`) | Hiperparámetro optimizado |
-|---|---|---|---|
-| 1 | K-Nearest Neighbors | `knn` | Número de vecinos (k) |
-| 2 | Support Vector Machine (RBF) | `svmRadial` | Sigma y Coste (C) |
-| 3 | Árbol de Decisión | `rpart` | Parámetro de complejidad (cp) |
-| 4 | Random Forest | `rf` | Variables por nodo (mtry) |
-| 5 | Gradient Boosting Machine | `gbm` | n.trees, profundidad, shrinkage |
-
-Todos los modelos se entrenaron con **validación cruzada de 10 folds** sobre el 70% de los datos, y se evaluaron en un conjunto de prueba independiente (30%).
-
----
-
-## Estructura del repositorio
-
-```
-Supervised-Learning-Breast-Cancer/
-│
-├── Actividad2_AlgoritmosIA.R          # Script principal (ejecutable)
-│
-├── data/
-│   ├── data.csv                       # Dataset Wisconsin Breast Cancer Diagnostic
-│   └── variables.csv                  # Documentación descriptiva de variables
-│
-├── results/
-│   └── Resultados_accuracy.csv        # Tabla comparativa de Accuracy y Kappa
-│
-├── figures/                           # Gráficos generados al ejecutar el script
-│   ├── 01_knn_tuning.png              # Accuracy vs. k (KNN)
-│   ├── 02_svm_tuning.png              # Accuracy vs. C (SVM Radial)
-│   ├── 03_arbol_decision.png          # Árbol de decisión final
-│   ├── 04_arbol_tuning.png            # Accuracy vs. cp (Árbol de Decisión)
-│   ├── 05_rf_tuning.png               # Accuracy vs. mtry (Random Forest)
-│   ├── 06_gbm_tuning.png              # Accuracy vs. hiperparámetros (GBM)
-│   ├── 07_comparacion_accuracy.png    # Comparativa de accuracy entre modelos
-│   └── 08_importancia_variables_rf.png # Top 15 variables más importantes (RF)
-│
-├── .gitignore
-└── README.md
-```
-
----
-
-## Cómo reproducir el análisis
-
-### Requisitos
-
-- R ≥ 4.0
-- RStudio (recomendado)
 
 ### Pasos
 
