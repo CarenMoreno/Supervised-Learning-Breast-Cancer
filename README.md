@@ -279,6 +279,10 @@ Los resultados exactos de accuracy y kappa se almacenan en `results/Resultados_a
 
 De manera general, **Random Forest** y **SVM Radial** obtuvieron el mayor accuracy en el conjunto de prueba. Las variables más discriminantes identificadas por el análisis de importancia corresponden a características del tercer momento estadístico del núcleo celular (`concave_points3`, `perimeter3`, `area3`).
 
+<p align="center">
+  <img src="figures/07_comparacion_accuracy.png?raw=true" width="600" alt="accuracy">
+</p>
+
 ---
 
 ## Paquetes utilizados
