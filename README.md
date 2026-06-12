@@ -151,22 +151,6 @@ randomForest · gbm · pROC · PRROC · gridExtra
 
 ## Autora
 
-**Caren Moreno**  
-Máster Universitario en Bioinformática - UNIR  
-Asignatura: Algoritmos e Inteligencia Artificial
-
----
-
-## Paquetes utilizados
-
-```r
-caret · tidyverse · randomForest · e1071 · rpart · rpart.plot · gbm · pROC
-```
-
----
-
-## Autora
-
 **Caren Nicole Moreno**  
 Máster Universitario en Bioinformática - UNIR  
 Asignatura: Algoritmos e Inteligencia Artificial
