@@ -75,8 +75,7 @@ Supervised-Learning-Breast-Cancer/
 │   ├── 06_gbm_tuning.png
 │   ├── 07_comparacion_accuracy.png
 │   ├── 08_comparativa_curvas_roc.png
-│   ├── 09_importancia_variables_rf.png
-│   └── variable_importance_rf.png
+│   └── 09_importancia_variables_rf.png
 │
 ├── docs/
 │   └── mubio04_act2_ind.pdf                 # Enunciado de la actividad
