@@ -192,7 +192,7 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
 ### Curvas ROC
 
 <p align="center">
-  <img src="figures/07_comparativa_curvas_roc.png?raw=true" width="500" height="400" alt="accuracy">
+  <img src="figures/07_comparativa_curvas_roc.png?raw=true" width="500" height="500" alt="accuracy">
 </p>
 
 ---
