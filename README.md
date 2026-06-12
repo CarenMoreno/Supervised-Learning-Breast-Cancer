@@ -138,6 +138,27 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
   <img src="figures/07_comparacion_accuracy.png?raw=true" width="600" alt="accuracy">
 </p>
 
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/01_knn_tuning.png" width="300" alt="Knn Tuning"><br>
+      <sub><b>K-Nearest Neighbors</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/02_svm_lineal_tuning.png" width="300" alt="svm_lineal_tuning"><br>
+      <sub><b>SVM Lineal</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/03_svm_radial_tuning.png" width="300" alt="svm_radial_tuning"><br>
+      <sub><b>SVM Radial (RBF)</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/04_dt_tuning.png" width="300" alt="dt_tuning"><br>
+      <sub><b>DT_Tuning</b></sub>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## Paquetes utilizados
