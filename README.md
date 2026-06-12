@@ -191,19 +191,6 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
   </tr>
 </table>
 
-### Figuras generadas
-
-| Figura | Descripción |
-|---|---|
-| `01_knn_tuning.png` | Accuracy en validación cruzada según el número de vecinos k |
-| `02_svm_tuning.png` | Accuracy en validación cruzada según el coste C del SVM radial |
-| `03_arbol_decision.png` | Estructura del árbol de decisión final con reglas de clasificación |
-| `04_arbol_tuning.png` | Accuracy en validación cruzada según el parámetro de complejidad cp |
-| `05_rf_tuning.png` | Accuracy en validación cruzada según mtry en Random Forest |
-| `06_gbm_tuning.png` | Accuracy en validación cruzada según hiperparámetros del GBM |
-| `07_comparacion_accuracy.png` | Gráfico comparativo del accuracy final de los cinco modelos |
-| `08_importancia_variables_rf.png` | Top 15 variables más discriminantes según Random Forest |
-
 ### Curvas ROC
 
 <p align="center">
