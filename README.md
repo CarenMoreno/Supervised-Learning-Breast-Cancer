@@ -92,27 +92,30 @@ Supervised-Learning-Breast-Cancer/
 **1. Clonar el repositorio**
 
 ```bash
-git clone https://github.com/tu-usuario/Supervised-Learning-Breast-Cancer.git
+git clone https://github.com/TU-USUARIO/Supervised-Learning-Breast-Cancer.git
 cd Supervised-Learning-Breast-Cancer
 ```
 
-**2. Colocar el dataset**
+**2. Verificar que los datos están en su lugar**
 
-Mover `data.csv` y `variables.csv` a la carpeta `data/`.
+Asegurarse de que `data.csv` está dentro de la carpeta `data/`.  
+El dataset original está disponible en el [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
 
-**3. Ajustar el directorio de trabajo**
+**3. Ajustar el directorio de trabajo en RStudio**
 
-Al inicio del script, ajustar `setwd()` a la carpeta del proyecto:
+Abrir el proyecto en RStudio y ejecutar al inicio:
 
 ```r
 setwd("ruta/a/Supervised-Learning-Breast-Cancer")
 ```
 
+O usar directamente *Session → Set Working Directory → To Source File Location*.
+
 **4. Ejecutar el script**
 
-Abrir `Moreno_Caren_Actividad2_AlgoritmosIA.R` en RStudio y ejecutar con `Ctrl + Shift + Enter` (Run All).
+Abrir `Actividad2_AlgoritmosIA.R` en RStudio y ejecutar con `Ctrl + Shift + Enter`.
 
-Los paquetes necesarios se instalan automáticamente si no están presentes.
+Los paquetes necesarios se instalan automáticamente si no están presentes. Las carpetas `figures/` y `results/` se crean solas al correr el script.
 
 ---
 
