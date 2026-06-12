@@ -18,7 +18,7 @@ Este proyecto forma parte de la asignatura **Algoritmos e Inteligencia Artificia
 
 ### Dataset
 
-**Wisconsin Breast Cancer Diagnostic** — 569 muestras, 30 variables numéricas derivadas de imágenes digitalizadas de aspirados con aguja fina (FNA) de masa mamaria.
+**Wisconsin Breast Cancer Diagnostic** - 569 muestras, 30 variables numéricas derivadas de imágenes digitalizadas de aspirados con aguja fina (FNA) de masa mamaria.
 
 | Variable objetivo | Descripción |
 |---|---|
