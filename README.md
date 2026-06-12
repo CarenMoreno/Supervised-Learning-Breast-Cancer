@@ -145,16 +145,16 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
       <sub><b>K-Nearest Neighbors</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/02_svm_lineal_tuning.png" width="300" alt="svm_lineal_tuning"><br>
-      <sub><b>SVM Lineal</b></sub>
+      <img src="figures/02_svm_tuning.png" width="300" alt="svm_tuning"><br>
+      <sub><b>SVM Turing</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/03_svm_radial_tuning.png" width="300" alt="svm_radial_tuning"><br>
-      <sub><b>SVM Radial (RBF)</b></sub>
+      <img src="figures/03_arbol_decision.png" width="300" alt="Arbol_decision"><br>
+      <sub><b>Árbol Decisión</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/04_dt_tuning.png" width="300" alt="dt_tuning"><br>
-      <sub><b>DT_Tuning</b></sub>
+      <img src="figures/04_arbol_tuning.png" width="300" alt="arbol_tuning"><br>
+      <sub><b>Árbol Tuning</b></sub>
     </td>
   </tr>
 </table>
