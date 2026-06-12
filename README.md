@@ -151,19 +151,6 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/03_arbol_decision.png" width="450" alt="Arbol_decision"><br>
-      <sub><b>Árbol Decisión</b></sub>
-    </td>
-    <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/07_comparacion_accuracy.png" width="450" alt="comparacion_accuracy"><br>
-      <sub><b>Comparación Accuracy</b></sub>
-    </td>
-  </tr>
-</table>
-
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td align="center" style="border: none; padding: 10px;">
       <img src="figures/01_knn_tuning.png" width="300" alt="Knn Tuning"><br>
       <sub><b>K-Nearest Neighbors</b></sub>
     </td>
