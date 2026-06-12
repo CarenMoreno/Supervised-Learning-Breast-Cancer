@@ -27,6 +27,22 @@ Este proyecto forma parte de la asignatura **Algoritmos e Inteligencia Artificia
 
 Las variables predictoras describen características del núcleo celular (radio, textura, perímetro, área, suavidad, compacidad, concavidad, simetría y dimensión fractal), calculadas como media, error estándar y peor valor observado.
 
+## Descripción
+
+Este proyecto implementa un pipeline completo de machine learning en R utilizando el framework `caret`. Se entrena, optimiza y compara el rendimiento de cinco modelos supervisados sobre datos biológicos reales, evaluando su capacidad para distinguir entre tumores benignos y malignos.
+
+### Dataset
+
+**Wisconsin Breast Cancer Diagnostic (WBCD)**
+
+| Característica | Detalle |
+|---|---|
+| Muestras | 569 pacientes |
+| Variables predictoras | 30 (características morfológicas del núcleo celular) |
+| Variable objetivo | `Diagnosis`: M = Maligno (212), B = Benigno (357) |
+| Fuente | UCI Machine Learning Repository |
+
+Las variables describen media, error estándar y peor valor observado de diez características nucleares: radio, textura, perímetro, área, suavidad, compacidad, concavidad, puntos cóncavos, simetría y dimensión fractal.
 ---
 
 ## Modelos implementados
