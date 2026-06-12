@@ -13,18 +13,6 @@ Supervised machine learning pipeline in R for breast cancer diagnosis classifica
 
 </div>
 
-
-<div align="center">
-<big>
-
-![R](https://img.shields.io/badge/R-4.x-276DC3?style=flat&logo=r&logoColor=white)
-![caret](https://img.shields.io/badge/caret-ML%20Framework-orange?style=flat)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
-
-</big>
-</div>
-
 Aplicación de seis algoritmos de **aprendizaje supervisado** sobre el dataset Wisconsin Breast Cancer Diagnostic para clasificar tumores mamarios como malignos (M) o benignos (B) a partir de características morfológicas del núcleo celular.
 
 ---
@@ -32,10 +20,6 @@ Aplicación de seis algoritmos de **aprendizaje supervisado** sobre el dataset W
 ## Descripción
 
 Este proyecto forma parte de la asignatura **Algoritmos e Inteligencia Artificial** del Máster Universitario en Bioinformática (UNIR). Se implementa un pipeline completo de machine learning en R utilizando el framework `caret`, cubriendo desde la preparación de los datos hasta la comparación de modelos mediante curvas ROC.
-
-<p align="center">
-  <img src="figures/biotech.png" width="600">
-</p>
 
 ### Dataset
 
