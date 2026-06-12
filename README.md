@@ -5,10 +5,12 @@ Supervised machine learning pipeline in R for breast cancer diagnosis classifica
 # Supervised-Learning-Breast-Cancer
 
 <p align="center">
-  <img src="https://shields.io" alt="R"/>
-  <img src="https://shields.io" alt="caret"/>
-  <img src="https://shields.io" alt="License"/>
-  <img src="https://shields.io" alt="Status"/>
+
+![R](https://shields.io)
+![caret](https://shields.io)
+![License](https://shields.io)
+![Status](https://shields.io)
+
 </p>
 
 Aplicación de seis algoritmos de **aprendizaje supervisado** sobre el dataset Wisconsin Breast Cancer Diagnostic para clasificar tumores mamarios como malignos (M) o benignos (B) a partir de características morfológicas del núcleo celular.
