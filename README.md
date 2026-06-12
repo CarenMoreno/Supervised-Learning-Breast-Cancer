@@ -1,7 +1,8 @@
-# Supervised-Learning-Breast-Cancer
+# Supervised Learning Applied to Breast Cancer Diagnosis
+
 Supervised machine learning pipeline in R for breast cancer diagnosis classification KNN, SVM, Decision Tree, Random Forest and GBM with 10-fold cross-validation and ROC analysis.
 
-# Supervised Learning Applied to Breast Cancer Diagnosis
+# Supervised-Learning-Breast-Cancer
 
 ![R](https://img.shields.io/badge/R-4.x-276DC3?style=flat&logo=r&logoColor=white)
 ![caret](https://img.shields.io/badge/caret-ML%20Framework-orange?style=flat)
