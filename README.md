@@ -189,6 +189,12 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
   </tr>
 </table>
 
+## Curvas ROC
+
+<p align="center">
+  <img src="figures/07_comparativa_curvas_roc.png?raw=true" width="600" alt="curvas ROC">
+</p>
+
 ---
 
 ## Paquetes utilizados
