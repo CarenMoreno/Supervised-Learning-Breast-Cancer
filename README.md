@@ -27,17 +27,12 @@ Este proyecto forma parte de la asignatura **Algoritmos e Inteligencia Artificia
 
 Las variables predictoras describen características del núcleo celular (radio, textura, perímetro, área, suavidad, compacidad, concavidad, simetría y dimensión fractal), calculadas como media, error estándar y peor valor observado.
 
-
 | Característica | Detalle |
 |---|---|
 | Muestras | 569 pacientes |
 | Variables predictoras | 30 (características morfológicas del núcleo celular) |
 | Variable objetivo | `Diagnosis`: M = Maligno (212), B = Benigno (357) |
 | Fuente | UCI Machine Learning Repository |
-
-Las variables predictoras describen características del núcleo celular (radio, textura, perímetro, área, suavidad, compacidad, concavidad, simetría y dimensión fractal), calculadas como media, error estándar y peor valor observado.
-
-Las variables describen media, error estándar y peor valor observado de diez características nucleares: radio, textura, perímetro, área, suavidad, compacidad, concavidad, puntos cóncavos, simetría y dimensión fractal.
 
 ---
 
