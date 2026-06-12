@@ -67,15 +67,15 @@ Supervised-Learning-Breast-Cancer/
 │   └── Resultados_AUC_modelos.csv           # Tabla comparativa de AUC por modelo
 │
 ├── figures/                                 # Gráficos generados por el script
-│   ├── knn_tuning.png
-│   ├── svm_lineal_tuning.png
-│   ├── svm_radial_tuning.png
-│   ├── dt_tuning.png
-│   ├── dt_tree.png
-│   ├── rf_tuning.png
-│   ├── gbm_tuning.png
-│   ├── roc_curves.png
-│   ├── model_comparison_bwplot.png
+│   ├── 01_knn_tuning.png
+│   ├── 02_svm_tuning.png
+│   ├── 03_arbol_decision.png
+│   ├── 04_arbol_tuning.png
+│   ├── 05_rf_tuning.png
+│   ├── 06_gbm_tuning.png
+│   ├── 07_comparacion_accuracy.png
+│   ├── 08_comparativa_curvas_roc.png
+│   ├── 09_importancia_variables_rf.png
 │   └── variable_importance_rf.png
 │
 ├── docs/
