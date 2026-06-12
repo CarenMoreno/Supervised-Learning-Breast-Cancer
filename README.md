@@ -134,9 +134,18 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
 - El **Árbol de Decisión** individual es el modelo más interpretable aunque con menor rendimiento predictivo.
 - Las variables más discriminantes identificadas por Random Forest corresponden a características del tercer momento estadístico: `concave_points3`, `perimeter3` y `area3`.
 
-<p align="center">
-  <img src="figures/07_comparacion_accuracy.png?raw=true" width="600" alt="accuracy">
-</p>
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/03_arbol_decision.png" width="450" alt="Arbol_decision"><br>
+      <sub><b>Árbol Decisión</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/07_comparacion_accuracy.png" width="450" alt="comparacion_accuracy"><br>
+      <sub><b>Comparación Accuracy</b></sub>
+    </td>
+  </tr>
+</table>
 
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
