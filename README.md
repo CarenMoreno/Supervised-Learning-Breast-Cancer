@@ -165,53 +165,6 @@ randomForest · gbm · pROC · PRROC · gridExtra
 Máster Universitario en Bioinformática - UNIR  
 Asignatura: Algoritmos e Inteligencia Artificial
 
-
-
-### Pasos
-
-**1. Clonar el repositorio**
-
-```bash
-git clone https://github.com/TU-USUARIO/Supervised-Learning-Breast-Cancer.git
-cd Supervised-Learning-Breast-Cancer
-```
-
-**2. Verificar que los datos están en su lugar**
-
-Asegurarse de que `data.csv` está dentro de la carpeta `data/`.  
-El dataset original está disponible en el [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
-
-**3. Ajustar el directorio de trabajo en RStudio**
-
-Abrir el proyecto en RStudio y ejecutar al inicio:
-
-```r
-setwd("ruta/a/Supervised-Learning-Breast-Cancer")
-```
-
-O usar directamente *Session → Set Working Directory → To Source File Location*.
-
-**4. Ejecutar el script**
-
-Abrir `Actividad2_AlgoritmosIA.R` en RStudio y ejecutar con `Ctrl + Shift + Enter`.
-
-Los paquetes necesarios se instalan automáticamente si no están presentes. Las carpetas `figures/` y `results/` se crean solas al correr el script.
-
----
-
-## Figuras generadas
-
-| Figura | Descripción |
-|---|---|
-| `01_knn_tuning.png` | Accuracy en validación cruzada según el número de vecinos k |
-| `02_svm_tuning.png` | Accuracy en validación cruzada según el coste C del SVM radial |
-| `03_arbol_decision.png` | Estructura del árbol de decisión final con reglas de clasificación |
-| `04_arbol_tuning.png` | Accuracy en validación cruzada según el parámetro de complejidad cp |
-| `05_rf_tuning.png` | Accuracy en validación cruzada según mtry en Random Forest |
-| `06_gbm_tuning.png` | Accuracy en validación cruzada según hiperparámetros del GBM |
-| `07_comparacion_accuracy.png` | Gráfico comparativo del accuracy final de los cinco modelos |
-| `08_importancia_variables_rf.png` | Top 15 variables más discriminantes según Random Forest |
-
 ---
 
 ## Resultados
