@@ -159,6 +159,27 @@ Los paquetes necesarios se instalan automáticamente si no están presentes. Las
   </tr>
 </table>
 
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/05_rf_tuning.png" width="300" alt="Rf Tuning"><br>
+      <sub><b>RF Tuning</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/06_gbm_tuning.png" width="300" alt="gbm_tuning"><br>
+      <sub><b>GBM Tuning</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/07_comparacion_accuracy.png" width="300" alt="comparacion_accuracy"><br>
+      <sub><b>Comparación Accuracy</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/08_importancia_variables_rf.png" width="300" alt="importancia_variables_rf"><br>
+      <sub><b>Importancia Variables RF</b></sub>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## Paquetes utilizados
