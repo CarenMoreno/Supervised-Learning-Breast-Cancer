@@ -40,7 +40,7 @@ Las variables predictoras describen características del núcleo celular (radio,
 | Random Forest | `rf` | Variables por nodo (mtry) |
 | Gradient Boosting | `gbm` | n.trees, profundidad, shrinkage |
 
-Todos los modelos se entrenaron con validación cruzada de 10 pliegues sobre el 70% de los datos, y se evaluaron en un conjunto de prueba independiente (30%).
+Todos los modelos se entrenaron con **validación cruzada de 10 folds** sobre el 70% de los datos, y se evaluaron sobre un conjunto de prueba independiente (30% del dataset).
 
 ---
 
